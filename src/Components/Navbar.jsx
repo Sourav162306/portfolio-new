@@ -162,10 +162,16 @@ const Navbar = ({ projectsRef, infoRef, skillRef, contactRef, homeRef }) => {
         </Flex>
 
         <Box
-          display={{ base: "block", sm: "block", md: "block", lg: "none" }}
+          display={{ base: "flex", sm: "flex", md: "flex", lg: "none" }}
          
           pr="20px"
         >
+           <Box>
+            <Button variant={"ghost"} onClick={toggleColorMode}>
+              {" "}
+              {colorMode === "light" ? <FaMoon /> : <FaSun />}
+            </Button>
+            </Box>
           <Menu>
             <MenuButton
               as={IconButton}

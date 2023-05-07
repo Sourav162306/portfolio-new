@@ -67,7 +67,7 @@ const Home = () => {
           </Box>
 
           <Button bg={"#06d6a0"} size={{base:"sm",sm:"sm",md:"md"}} mt={"20px"}>
-            <a href="sourav-paul-resume.pdf" target="_blank" download rel="noreferrer">
+            <a href="sourav-paul-new-resume.pdf" target="_blank" download rel="noreferrer">
               Resume
             </a>
           </Button>

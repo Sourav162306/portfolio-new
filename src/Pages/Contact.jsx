@@ -9,8 +9,8 @@ import { MdCall } from "react-icons/md";
 const Contact = () => {
   const form = useRef('');
 
-  const YOUR_SERVICE_ID = "service_d5txham";
-  const YOUR_TEMPLATE_ID = "template_pokrdf7";
+  const YOUR_SERVICE_ID = "service_hnfz43s";
+  const YOUR_TEMPLATE_ID = "template_2sch6lc";
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,7 +20,7 @@ const Contact = () => {
         YOUR_SERVICE_ID,
         YOUR_TEMPLATE_ID,
         form.current,
-        "stx2o-M5nXB8mIR5H"
+        "ZAu8S5M9d6x-ckmAH"
       )
       .then(
         (result) => {
@@ -83,7 +83,9 @@ const Contact = () => {
 
             <Box display={"flex"} gap="40px" alignItems={"center"} mb="25px">
               <MdCall color={"#06d6a0"} size={"40px"} />
-              <Box fontWeight={"500"}>+91 8787791187</Box>
+              <Box fontWeight={"500"}>
+              <a href="tel:8787791187">+91 8787791187</a>
+              </Box>
             </Box>
           </Box>
         </Box>
@@ -111,7 +113,7 @@ const Contact = () => {
               border="1px solid #06d6a0"
                 type="text"
                 name="subject"
-                placeholder="Subject"
+                placeholder="Number"
                 required
               />
             </Box>
