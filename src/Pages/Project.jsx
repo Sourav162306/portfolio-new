@@ -112,10 +112,10 @@ const Project = () => {
     <Box boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px" border="1px solid #06d6a0" borderRadius="15px">
       <Image borderTopRightRadius={"15px"} borderTopLeftRadius={"15px"} h="200px" w="100%" src="board-dashboard.png" alt="giticon" />
     <Box mt="10px" mb="10px" ><Text fontWeight="bold">Board Dashboard App</Text></Box> 
-      <Box padding={"10px"} textAlign="center">User Signup Page & Login Page using google login. After Login User can go to dasboard and other feature parts. If users in not loggedin , they cannot access the dashboard. The UI is userfriendly and responsive for mobile, tablet and desktop ie. all of the devices.
+      <Box padding={"10px"} textAlign="center">User Signup Page & Login Page using google login. After Login User can go to the dashboard and other feature parts. If users are not logged in , they cannot access the dashboard. The UI is user friendly and responsive for mobile, tablet and desktop ie. all of the devices.
       <br/>
       <br/>
-      ● User can login with google account to access the dashboard.
+      ● Users can login with google account to access the dashboard.
     </Box>
       <Box>
     
